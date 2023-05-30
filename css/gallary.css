@@ -1,0 +1,61 @@
+.track-btn {
+  color: var(--orange);
+  border: 1px solid var(--orange);
+  transition: 0.3s;
+  right: 0;
+}
+
+.track-btn:hover {
+  color: var(--black);
+  border: 1px solid var(--black);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--black);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--orange);
+}
+
+.gallary-section {
+    margin: 15vh auto;
+    font-family: var(--dmsans);
+}
+
+.gallary-col {
+    margin: 1rem 0;
+}
+.gallary-link {
+  text-decoration: none;
+}
+.gallary-container {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.gallary-image {
+  width: 85%;
+  height: auto;
+}
+
+.gallary-title {
+font-size: 25px;
+font-weight: bold;
+color: #212529;
+margin: 10px 0;
+
+
+}
+ /* .gallery-col:nth-child(2n+1) {
+    margin: 15px auto;
+    text-align: center;
+}  */

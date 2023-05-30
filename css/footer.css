@@ -1,0 +1,99 @@
+:root {
+  --oswald: "Oswald", sans-serif;
+  --dmsans: "DM Sans", sans-serif;
+  --white: #fff;
+  --black: #1a1a1a;
+  --gray: #7a7a7a;
+  --lightgray: #cccccc;
+  --orange: #f48440;
+  --red: #f03c3a;
+  --blue: #0e0e18;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.footer-image {
+  width: 120px;
+  margin-top: 0.7rem;
+}
+
+.footer-image-des {
+  font-size: 12px;
+  font-family: var(--dmsans);
+  margin-top: 1rem;
+}
+
+.contact-footer {
+  font-size: 18px;
+  font-family: var(--oswald);
+  margin-top: 1.7rem;
+}
+.contact-footer-info > p {
+  font-size: 12px;
+  font-family: var(--dmsans);
+  margin-bottom: 0;
+}
+
+.social {
+  margin-top: 3rem;
+  padding-left: 2rem;
+}
+.socail-des {
+  font-size: 12px;
+  font-family: var(--dmsans);
+}
+
+.social-footer-icon > i {
+  margin-left: 0.5rem;
+}
+
+.line-privacy {
+  width: 100%;
+  height: 2px;
+  background-color: var(--white);
+  margin: 2rem 0;
+}
+.privay-link {
+  padding-bottom: 2rem;
+}
+.privacy-l {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 12px;
+  font-family: var(--dmsans);
+  cursor: pointer;
+}
+.privacy-content {
+  display: flex;
+}
+.zeal-privacy {
+  font-size: 12px;
+  font-family: var(--dmsans);
+  margin-left: 10rem;
+}
+
+.zeal {
+  color: var(--orange);
+}
+
+@media only screen and (max-width: 650px) {
+  .footer-container {
+    text-align: center;
+  }
+
+  .social {
+    margin-top: 3rem;
+    padding-left: 0rem;
+  }
+}

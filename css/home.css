@@ -1,0 +1,272 @@
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--black);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--orange);
+}
+
+.bg-images {
+  height: 100vh;
+  background-image: url("../images/homeimage.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Come To You Section */
+.come-to-you {
+  background-color: var(--black);
+  position: relative;
+}
+
+.image-col-come {
+  position: relative;
+}
+
+.cometoyou-image {
+  width: 250px;
+  height: 400px;
+}
+.image1 {
+  position: absolute;
+  right: 4rem;
+}
+
+.image2 {
+  position: absolute;
+  right: 50%;
+  top: 15%;
+}
+/* .come-col {
+    margin: auto;
+} */
+
+.come-container {
+  padding: 7rem;
+  /* position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%); */
+}
+
+.come-header {
+  font-family: var(--oswald);
+  color: var(--white);
+  font-weight: 800;
+  font-size: 5rem;
+}
+
+.come-description {
+  color: var(--white);
+  font-family: var(--dmsans);
+  font-size: 1.2rem;
+}
+
+.btn-come-read {
+  background-color: var(--orange);
+  color: var(--white);
+  font-family: var(--dmsans);
+  font-size: 1.2rem;
+  font-weight: 400;
+  border-radius: 10px;
+  padding: 1vh 3vh;
+  transition: 0.3s;
+}
+
+.btn-come-read:hover {
+  background-color: var(--black);
+  border: 1px solid var(--red);
+  color: var(--red);
+}
+
+/* Mobile come to you */
+@media only screen and (max-width: 650px) {
+  .come-container {
+    padding: 2rem;
+  }
+  .come-content {
+    flex: 1;
+  }
+
+  .image2 {
+    position: relative;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+  }
+  .image1 {
+    display: none;
+  }
+  .come-header {
+    font-size: 3.5rem;
+    margin-top: 1rem;
+  }
+}
+
+/* Come To You Section */
+
+/* Adventue */
+.adventure-section {
+  margin-top: 5rem;
+}
+.adventure-content-row {
+  font-family: var(--oswald);
+  margin-bottom: 2rem;
+}
+.ready-h {
+  font-weight: 900;
+  font-size: 4rem;
+  color: var(--black);
+}
+.ready-p {
+  color: var(--orange);
+}
+.adenture-p {
+  font-family: var(--dmsans);
+  color: var(--black);
+  font-size: 1rem;
+}
+
+.cars-content {
+  width: 500px;
+}
+.ready-car {
+  width: 100%;
+}
+
+.cars-content p {
+  font-size: 1.7rem;
+  color: var(--black);
+  font-weight: bold;
+  font-family: var(--dmsans);
+}
+
+.mySwiper {
+  display: none;
+}
+@media only screen and (max-width: 650px) {
+  .cars-row {
+    display: none;
+  }
+  .adenture-p {
+    font-size: 1.1rem;
+  }
+  .mySwiper {
+    display: block;
+  }
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+/* Adventue */
+
+.span-after {
+  height: 1.5px;
+  width: 100%;
+  background-color: var(--black);
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+/* How Section */
+
+.how-section {
+  margin: 1rem 5rem;
+}
+
+.step-row {
+  margin-left: 10rem;
+  margin-top: 2rem;
+}
+.step-row .image-how-col {
+  width: 250px;
+  height: 250px;
+}
+
+.image-how-col .step-image {
+  width: 100%;
+  /* width: 250px;
+  height: 250px; */
+}
+
+.how-header {
+  font-family: var(--oswald);
+  font-weight: 900;
+  font-size: 4.5rem;
+  color: var(--black);
+}
+.how-header span {
+  color: var(--orange);
+}
+
+.how-content p {
+  font-family: var(--dmsans);
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: var(--black);
+}
+
+.step-description {
+  /* margin-left: 1rem;
+  margin-right: 1rem; */
+  padding: 0 3rem;
+}
+
+.step-n {
+  font-size: 1.375rem;
+  color: var(--black);
+  font-family: var(--dmsans);
+  font-weight: bold;
+}
+.step-p {
+  font-size: 1rem;
+  color: var(--black);
+  font-family: var(--dmsans);
+}
+
+@media only screen and (max-width: 650px) {
+  .how-section {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .steps {
+    padding: 0;
+  }
+  .step-row {
+    margin: 0;
+  }
+  .image-how-col {
+    padding: 0;
+  }
+  .step-description {
+    padding: 0;
+    margin: 2rem 0;
+  }
+}
+/* How Section */

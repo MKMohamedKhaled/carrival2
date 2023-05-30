@@ -1,0 +1,101 @@
+.track-btn {
+  color: var(--orange);
+  border: 1px solid var(--orange);
+  transition: 0.3s;
+  right: 0;
+}
+
+.track-btn:hover {
+  color: var(--black);
+  border: 1px solid var(--black);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--black);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--orange);
+}
+
+.request-section {
+  padding-top: 10rem;
+  padding-bottom: 2rem;
+}
+
+.request-form-container {
+  width: 55%;
+  text-align: center;
+  margin: auto;
+  /* border: 1px solid var(--lightergray);
+    border-radius: 10px; */
+}
+
+.request-header {
+  font-size: 2.75rem;
+  font-family: var(--dmsans);
+  color: #f48440;
+  font-weight: 500;
+}
+
+.request-des {
+  font-family: var(--dmsans);
+  color: #1a1a1a;
+  font-size: 1.25rem;
+}
+.request-label {
+  text-align: left;
+  width: 100%;
+  font-size: 1rem;
+  color: #1a1a1a;
+  margin-bottom: 0.5rem;
+}
+
+.request-input {
+  width: 100%;
+  border: 2px solid #d8d8d8;
+  height: 2.5rem;
+  border-radius: 5px;
+  margin: auto auto 10px auto;
+  padding: 5px;
+}
+.request-form {
+  border: 1px solid #ddd;
+  /* padding: 3vh 4vh 5vh;  */
+  border-radius: 10px;
+  padding: 20px;
+}
+.option {
+  opacity: 0.5;
+}
+
+.submit-btn {
+  text-decoration: none;
+  width: 100%;
+  background-color: var(--black);
+  color: var(--white);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  margin-top: 5px;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 650px) {
+  .request-form-container {
+    width: 90%;
+  }
+
+  .request-section {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+  }
+}
